@@ -2,8 +2,8 @@ def reverse_string(s):
     """
     Reverses order or characters in string s.
     """
-    #return s[::-1]
-    return s
+    return s[::-1]
+    #return s
 
 def test_reverse_string():
     assert reverse_string('foobar!') == '!raboof'
