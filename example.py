@@ -10,14 +10,14 @@ def test_reverse_string():
     assert reverse_string('stressed') == 'desserts'
     
     
-def reverse_words(s):
-    """
-    Reverses order or words in string s.
-    """
-    words = s.split()
-    words_reversed = words[::-1]
-    return ' '.join(words_reversed)
-    
+#def reverse_words(s):
+#    """
+#    Reverses order or words in string s.
+#    """
+#    words = s.split()
+#    words_reversed = words[::-1]
+#    return ' '.join(words_reversed)
+#    
     
 def test_reverse_words():
     assert reverse_words('dogs hate cats') == 'cats hate dogs'
